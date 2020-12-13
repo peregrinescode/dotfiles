@@ -78,3 +78,11 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+
+" python specific config
+filetype indent plugin on
+set smartindent  " smart indent when starting a new line
+set shiftwidth=4 " set number of spaces for autoindent
+set expandtab    " use spaces instead of tab character
+set tabstop=4    " number of spaces that a tab counts for
+set smarttab	 " tab at beginning of line inserts spaces instead of shiftwidth
