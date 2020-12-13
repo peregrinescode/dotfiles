@@ -68,7 +68,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git rsync tmux colored-man-pages zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -131,7 +131,7 @@ alias lm='la | more'
 # git
 alias gs='git status'
 alias ga='git add .'
-alias gc='git commit -m'
+alias gc='git commit'
 alias gp='git push'
 
 # Privileged access
