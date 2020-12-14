@@ -11,6 +11,17 @@
 " `vim -u foo`).
 set nocompatible
 
+" Set theme
+set t_Co=256
+colorscheme badwolf
+" Make the gutters darker than the background
+lef g:badwolf_darkgutter=1
+
+" Add a line where cusor is
+set cursorline
+:hi clear CursorLine
+:hi CursorLine gui=underline cterm=underline
+
 " Turn on syntax highlighting.
 syntax on
 
