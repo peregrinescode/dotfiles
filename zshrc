@@ -115,7 +115,9 @@ alias 08='cd /home/ross/phd/projects/08-EPR'
 alias 10='cd /home/ross/phd/projects/10-ternary-blends/MANUSCRIPT/ternary-blend-paper'
 alias counterpoise='cd /home/ross/phd/projects/11-counterpoise'
 alias k='cd /home/ross/git/keithley2614B'
+alias serve="bundle exec jekyll serve"
 
+alias pi='ssh -Y pi@192.168.86.34 -R 52698:localhost:52698'
 alias cat='ccat'
 alias yay='yay --aur'
 alias orphans='sudo pacman -Rns $(pacman -Qtdq)'

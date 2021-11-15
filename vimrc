@@ -97,3 +97,15 @@ set shiftwidth=4 " set number of spaces for autoindent
 set expandtab    " use spaces instead of tab character
 set tabstop=4    " number of spaces that a tab counts for
 set smarttab	 " tab at beginning of line inserts spaces instead of shiftwidth
+
+" PLUGINS with vim-plug
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'lervag/vimtex'
+Plug 'SirVer/ultisnips'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+
+" List ends here. Plugins become visible to Vim after this call.
+call plug#end()
